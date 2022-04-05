@@ -1,0 +1,21 @@
+{
+    "name": "better-dark-theme",
+    "displayName": "Better Dark Theme",
+    "description": "Base vs code dark theme modified to be better than original one.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Better Dark Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Better Dark Theme-color-theme.json"
+            }
+        ]
+    }
+}
